@@ -150,7 +150,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                                 variant="text"
                                 size="small"
                                 component="a"
-                                href="/material-ui/getting-started/templates/sign-in/"
+                                href="#"
                                 target="_blank"
                             >
                                 Sign in
@@ -160,7 +160,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                                 variant="contained"
                                 size="small"
                                 component="a"
-                                href="/material-ui/getting-started/templates/sign-up/"
+                                href="#"
                                 target="_blank"
                             >
                                 Sign up
@@ -214,7 +214,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                                             color="primary"
                                             variant="contained"
                                             component="a"
-                                            href="/material-ui/getting-started/templates/sign-up/"
+                                            href="#"
                                             target="_blank"
                                             sx={{ width: '100%' }}
                                         >
@@ -226,7 +226,7 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                                             color="primary"
                                             variant="outlined"
                                             component="a"
-                                            href="/material-ui/getting-started/templates/sign-in/"
+                                            href="#"
                                             target="_blank"
                                             sx={{ width: '100%' }}
                                         >
