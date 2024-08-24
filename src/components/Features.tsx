@@ -19,24 +19,24 @@ const items = [
         title: 'Dashboard',
         description:
             'This item could provide a snapshot of the most important metrics or data points related to the product.',
-        imageLight: 'url("/static/images/templates/templates-images/dash-light.png")',
-        imageDark: 'url("/static/images/templates/templates-images/dash-dark.png")',
+        imageLight: 'url("https://aiwisemind.com/wp-content/uploads/2024/05/connected-sites-2048x1379.jpg")',
+        imageDark: 'url("https://aiwisemind.com/wp-content/uploads/2024/05/connected-sites-2048x1379.jpg")',
     },
     {
         icon: <EdgesensorHighRoundedIcon />,
         title: 'Mobile integration',
         description:
             'This item could provide information about the mobile app version of the product.',
-        imageLight: 'url("/static/images/templates/templates-images/mobile-light.png")',
-        imageDark: 'url("/static/images/templates/templates-images/mobile-dark.png")',
+        imageLight: 'url("https://aiwisemind.com/wp-content/uploads/2023/06/scheduler.png")',
+        imageDark: 'url("https://aiwisemind.com/wp-content/uploads/2023/06/scheduler.png")',
     },
     {
         icon: <DevicesRoundedIcon />,
         title: 'Available on all platforms',
         description:
             'This item could let users know the product is available on all platforms, such as web, mobile, and desktop.',
-        imageLight: 'url("/static/images/templates/templates-images/devices-light.png")',
-        imageDark: 'url("/static/images/templates/templates-images/devices-dark.png")',
+        imageLight: 'url("https://aiwisemind.com/wp-content/uploads/2023/06/update-and-sync.png")',
+        imageDark: 'url("https://aiwisemind.com/wp-content/uploads/2023/06/update-and-sync.png")',
     },
 ];
 
