@@ -16,27 +16,27 @@ import ViewQuiltRoundedIcon from '@mui/icons-material/ViewQuiltRounded';
 const items = [
     {
         icon: <ViewQuiltRoundedIcon />,
-        title: 'Dashboard',
+        title: 'Different Types of Puja',
         description:
-            'This item could provide a snapshot of the most important metrics or data points related to the product.',
-        imageLight: 'url("https://aiwisemind.com/wp-content/uploads/2024/05/connected-sites-2048x1379.jpg")',
-        imageDark: 'url("https://aiwisemind.com/wp-content/uploads/2024/05/connected-sites-2048x1379.jpg")',
+            'Explore the various pujas offered by Shastri Ji, from Graha Shanti to Vedic rituals, designed for peace and prosperity.',
+        imageLight: 'url("https://example.com/puja1.jpg")',
+        imageDark: 'url("https://example.com/puja1.jpg")',
     },
     {
         icon: <EdgesensorHighRoundedIcon />,
-        title: 'Mobile integration',
+        title: 'Personalized Rituals',
         description:
-            'This item could provide information about the mobile app version of the product.',
-        imageLight: 'url("https://aiwisemind.com/wp-content/uploads/2023/06/scheduler.png")',
-        imageDark: 'url("https://aiwisemind.com/wp-content/uploads/2023/06/scheduler.png")',
+            'Shastri Ji provides tailored rituals based on individual needs and astrological charts, ensuring spiritual alignment.',
+        imageLight: 'url("https://example.com/puja2.jpg")',
+        imageDark: 'url("https://example.com/puja2.jpg")',
     },
     {
         icon: <DevicesRoundedIcon />,
-        title: 'Available on all platforms',
+        title: 'Online and Offline Services',
         description:
-            'This item could let users know the product is available on all platforms, such as web, mobile, and desktop.',
-        imageLight: 'url("https://aiwisemind.com/wp-content/uploads/2023/06/update-and-sync.png")',
-        imageDark: 'url("https://aiwisemind.com/wp-content/uploads/2023/06/update-and-sync.png")',
+            'Puja services can be performed both in-person and remotely. Get access to spiritual blessings no matter your location.',
+        imageLight: 'url("https://example.com/puja3.jpg")',
+        imageDark: 'url("https://example.com/puja3.jpg")',
     },
 ];
 
@@ -55,16 +55,14 @@ export default function Features() {
                 <Grid item xs={12} md={6}>
                     <div>
                         <Typography component="h2" variant="h4" color="text.primary">
-                            Product features
+                            Puja Services
                         </Typography>
                         <Typography
                             variant="body1"
                             color="text.secondary"
                             sx={{ mb: { xs: 2, sm: 4 } }}
                         >
-                            Here you can provide a brief overview of the key features of the
-                            product. For example, you could list the number of features, the types
-                            of features, add-ons, or the benefits of the features.
+                            Discover the wide range of religious and spiritual services offered by Shastri Ji to help guide your spiritual journey.
                         </Typography>
                     </div>
                     <Grid container item gap={1} sx={{ display: { xs: 'auto', sm: 'none' } }}>
@@ -79,12 +77,6 @@ export default function Features() {
                                             return selectedItemIndex === index ? 'primary.light' : '';
                                         }
                                         return selectedItemIndex === index ? 'primary.light' : '';
-                                    },
-                                    background: (theme) => {
-                                        if (theme.palette.mode === 'light') {
-                                            return selectedItemIndex === index ? 'none' : '';
-                                        }
-                                        return selectedItemIndex === index ? 'none' : '';
                                     },
                                     backgroundColor: selectedItemIndex === index ? 'primary.main' : '',
                                     '& .MuiChip-label': {

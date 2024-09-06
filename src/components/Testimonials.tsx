@@ -11,46 +11,46 @@ import { useTheme } from '@mui/system';
 
 const userTestimonials = [
     {
-        avatar: <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />,
-        name: 'Remy Sharp',
-        occupation: 'Senior Engineer',
+        avatar: <Avatar alt="Shastri Ji" src="/static/images/avatar/shastri1.jpg" />,
+        name: 'Pandit Shastri Ji',
+        occupation: 'Expert in Vedic Rituals',
         testimonial:
-            "I absolutely love how versatile this product is! Whether I'm tackling work projects or indulging in my favorite hobbies, it seamlessly adapts to my changing needs. Its intuitive design has truly enhanced my daily routine, making tasks more efficient and enjoyable.",
+            "The Puja ceremonies conducted by Shastri Ji have always brought immense peace and spiritual satisfaction. His knowledge and dedication to the Vedic rituals are truly remarkable.",
     },
     {
-        avatar: <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />,
-        name: 'Travis Howard',
-        occupation: 'Lead Product Designer',
+        avatar: <Avatar alt="Shastri Ji" src="/static/images/avatar/shastri2.jpg" />,
+        name: 'Rajesh Kumar',
+        occupation: 'Devotee',
         testimonial:
-            "One of the standout features of this product is the exceptional customer support. In my experience, the team behind this product has been quick to respond and incredibly helpful. It's reassuring to know that they stand firmly behind their product.",
+            "Shastri Ji's ability to perform complex rituals with such simplicity and devotion is inspiring. Every puja has been a divine experience that brings positivity and calmness to my family.",
     },
     {
-        avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />,
-        name: 'Cindy Baker',
-        occupation: 'CTO',
+        avatar: <Avatar alt="Shastri Ji" src="/static/images/avatar/shastri3.jpg" />,
+        name: 'Anjali Sharma',
+        occupation: 'Spiritual Seeker',
         testimonial:
-            'The level of simplicity and user-friendliness in this product has significantly simplified my life. I appreciate the creators for delivering a solution that not only meets but exceeds user expectations.',
+            "I was amazed by Shastri Ji's detailed knowledge and how he explained each step of the rituals during our home Puja. His guidance has helped me feel more connected spiritually.",
     },
     {
-        avatar: <Avatar alt="Remy Sharp" src="/static/images/avatar/4.jpg" />,
-        name: 'Julia Stewart',
-        occupation: 'Senior Engineer',
+        avatar: <Avatar alt="Shastri Ji" src="/static/images/avatar/shastri4.jpg" />,
+        name: 'Vikas Patel',
+        occupation: 'Businessman',
         testimonial:
-            "I appreciate the attention to detail in the design of this product. The small touches make a big difference, and it's evident that the creators focused on delivering a premium experience.",
+            "After organizing a business Puja with Shastri Ji, I felt a significant change in the energy around my workplace. His rituals have brought prosperity and peace to our environment.",
     },
     {
-        avatar: <Avatar alt="Travis Howard" src="/static/images/avatar/5.jpg" />,
-        name: 'John Smith',
-        occupation: 'Product Designer',
+        avatar: <Avatar alt="Shastri Ji" src="/static/images/avatar/shastri5.jpg" />,
+        name: 'Sunita Rao',
+        occupation: 'Homemaker',
         testimonial:
-            "I've tried other similar products, but this one stands out for its innovative features. It's clear that the makers put a lot of thought into creating a solution that truly addresses user needs.",
+            "Shastri Ji's kindness and expertise during our family Puja made the experience unforgettable. The blessings and positive energy have stayed with us long after the ceremony.",
     },
     {
-        avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/6.jpg" />,
-        name: 'Daniel Wolf',
-        occupation: 'CDO',
+        avatar: <Avatar alt="Shastri Ji" src="/static/images/avatar/shastri6.jpg" />,
+        name: 'Mukesh Verma',
+        occupation: 'Temple Committee Member',
         testimonial:
-            "The quality of this product exceeded my expectations. It's durable, well-designed, and built to last. Definitely worth the investment!",
+            "We regularly invite Shastri Ji for temple functions, and each time, his deep understanding of the scriptures and devotion to the rituals leave a lasting impact on the entire community.",
     },
 ];
 
@@ -104,9 +104,7 @@ export default function Testimonials() {
                     Testimonials
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
-                    See what our customers love about our products. Discover how we excel in
-                    efficiency, durability, and satisfaction. Join us for quality, innovation,
-                    and reliable support.
+                    See how Shastri Ji’s profound knowledge and dedication to Vedic rituals have impacted the lives of many. His Pujas bring peace, positivity, and blessings to everyone he serves.
                 </Typography>
             </Box>
             <Grid container spacing={2}>

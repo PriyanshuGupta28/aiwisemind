@@ -42,18 +42,7 @@ export default function Hero() {
                             fontSize: 'clamp(3.5rem, 10vw, 4rem)',
                         }}
                     >
-                        Designed for Affiliate & Digital Marketers
-                        {/* <Typography
-                            component="span"
-                            variant="h1"
-                            sx={{
-                                fontSize: 'clamp(3rem, 10vw, 4rem)',
-                                color: (theme) =>
-                                    theme.palette.mode === 'light' ? 'primary.main' : 'primary.light',
-                            }}
-                        >
-                            products
-                        </Typography> */}
+                        Experience the Divine with Shastri Ji
                     </Typography>
                     <Typography
                         textAlign="center"
@@ -61,7 +50,7 @@ export default function Hero() {
                         variant='h6'
                         sx={{ alignSelf: 'center', width: { sm: '100%', md: '80%' } }}
                     >
-                        Build A Complete WordPress Website In Less Than 10 Minutes Loaded With Google Dominating Content!
+                        Organizing Vedic Rituals and Pujas with Aaryasamaj Traditions, Bringing Peace and Prosperity to Your Life.
                     </Typography>
                     <Typography
                         textAlign="center"
@@ -69,7 +58,7 @@ export default function Hero() {
                         variant='h5'
                         sx={{ alignSelf: 'center', width: { sm: '100%', md: '100%' } }}
                     >
-                        Seamlessly Create, Schedule, and Publish Informational Articles and Product Reviews Using GPT3.5, GPT4, or the new GPT4o.
+                        From Graha Pravesh to Vivah Sanskar, Shastri Ji offers a wide range of sacred services for every special occasion.
                     </Typography>
                     <Stack
                         direction={{ xs: 'column', sm: 'row' }}
@@ -91,11 +80,11 @@ export default function Hero() {
                             }}
                         />
                         <Button variant="contained" color="primary">
-                            Start now
+                            Book a Puja
                         </Button>
                     </Stack>
                     <Typography variant="caption" textAlign="center" sx={{ opacity: 0.8 }}>
-                        By clicking &quot;Start now&quot; you agree to our&nbsp;
+                        By clicking &quot;Book a Puja&quot; you agree to our&nbsp;
                         <Link href="#" color="primary">
                             Terms & Conditions
                         </Link>
@@ -111,8 +100,8 @@ export default function Hero() {
                         width: '100%',
                         backgroundImage:
                             theme.palette.mode === 'light'
-                                ? 'url("https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg")'
-                                : 'url("https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg")',
+                                ? 'url("https://www.thepackersmovers.com/blog/wp-content/uploads/2019/12/puja.jpg")'
+                                : 'url("https://www.thepackersmovers.com/blog/wp-content/uploads/2019/12/puja.jpg")',
                         backgroundSize: 'cover',
                         borderRadius: '10px',
                         outline: '1px solid',

@@ -15,39 +15,39 @@ import ThumbUpAltRoundedIcon from '@mui/icons-material/ThumbUpAltRounded';
 const items = [
     {
         icon: <SettingsSuggestRoundedIcon />,
-        title: 'Adaptable performance',
+        title: 'Expert Vedic Knowledge',
         description:
-            'Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
+            'Shastri Ji offers profound wisdom in Vedic rituals, ensuring accurate and meaningful ceremonies.',
     },
     {
         icon: <ConstructionRoundedIcon />,
-        title: 'Built to last',
+        title: 'Structured Rituals',
         description:
-            'Experience unmatched durability that goes above and beyond with lasting investment.',
+            'Every puja is conducted with careful planning and precision, creating a structured and sacred environment.',
     },
     {
         icon: <ThumbUpAltRoundedIcon />,
-        title: 'Great user experience',
+        title: 'Positive Outcomes',
         description:
-            'Integrate our product into your routine with an intuitive and easy-to-use interface.',
+            'Shastri Ji’s rituals bring peace, prosperity, and harmony, positively impacting all who participate.',
     },
     {
         icon: <AutoFixHighRoundedIcon />,
-        title: 'Innovative functionality',
+        title: 'Innovative Approach',
         description:
-            'Stay ahead with features that set new standards, addressing your evolving needs better than the rest.',
+            'Combining traditional knowledge with a modern understanding, Shastri Ji provides a unique approach to spiritual practices.',
     },
     {
         icon: <SupportAgentRoundedIcon />,
-        title: 'Reliable support',
+        title: 'Personalized Guidance',
         description:
-            'Count on our responsive customer support, offering assistance that goes beyond the purchase.',
+            'Receive individual attention and tailored advice to suit your spiritual needs during every ritual.',
     },
     {
         icon: <QueryStatsRoundedIcon />,
-        title: 'Precision in every detail',
+        title: 'Precise Mantras & Procedures',
         description:
-            'Enjoy a meticulously crafted product where small touches make a significant impact on your overall experience.',
+            'With exact pronunciation and procedure, Shastri Ji ensures that every mantra and ritual step is perfect.',
     },
 ];
 
@@ -81,9 +81,7 @@ export default function Highlights() {
                         Highlights
                     </Typography>
                     <Typography variant="body1" sx={{ color: 'grey.400' }}>
-                        Explore why our product stands out: adaptability, durability,
-                        user-friendly design, and innovation. Enjoy reliable customer support and
-                        precision in every detail.
+                        Discover the key aspects of Shastri Ji's services: deep Vedic knowledge, precise rituals, positive spiritual outcomes, and a modern approach to traditional ceremonies.
                     </Typography>
                 </Box>
                 <Grid container spacing={2.5}>
